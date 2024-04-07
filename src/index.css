@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  margin: 0;
+}
+body {
+  font-family: 'Rubik'
+}
+.bg-img {
+  background-image: url('/public/images/pattern-bg-desktop.png');
+  height: 30vh;
+}
+.search-box {
+  font-size: 13px;
+  width: 40%;
+}
+.title {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.popup .title {
+  font-size: 8px;
+}
+.popup .font-weight-bold {
+  font-weight: 200;
+  font-size: 10px !important;
+}
+
+.map {
+  height: 70vh;
+  width: 100%;
+}
+.z-index {
+  z-index: 100000;
+  left: 25%;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+.custom-border {
+  border-right: 1px solid lightgray;
+}
+@media (max-width:500px) {
+  .search-box {
+    font-size: 10px;
+    width: 100%;
+  }
+  .bg-img {
+    height: 50vh;
+  }
+  .font-weight-bold {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .custom-border {
+    border-right: none;
+  }
+}
+
+@media (max-width:375px) {
+  .bg-img {
+    background-image: url('/public/images/pattern-bg-mobile.png');
+  }
+  
+}
