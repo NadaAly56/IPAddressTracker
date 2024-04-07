@@ -12,6 +12,7 @@ body {
 .search-box {
   font-size: 13px;
   width: 40%;
+  flex-wrap: nowrap;
 }
 .title {
   font-size: 11px;
