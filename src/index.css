@@ -42,10 +42,10 @@ body {
 @media (max-width:500px) {
   .search-box {
     font-size: 10px;
-    width: 100%;
+    /* width: 100%; */
   }
   .bg-img {
-    height: 50vh;
+    height: 40vh;
   }
   .font-weight-bold {
     font-weight: 500;
@@ -53,6 +53,10 @@ body {
   }
   .custom-border {
     border-right: none;
+    
+  }
+  .text-sm-center {
+    text-align: center;
   }
 }
 

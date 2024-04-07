@@ -18,7 +18,7 @@ export default function Map() {
     <MapContainer
       className="map"
       center={center}
-      zoom={15}
+      zoom={18}
       scrollWheelZoom={true}
     >
       <ChangeCenter center={center}></ChangeCenter>

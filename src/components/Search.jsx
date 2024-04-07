@@ -1,4 +1,5 @@
-import React from "react";import { useState } from "react";
+import React from "react";
+import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { fetchData } from "../redux/IpAdressSlice";
 // import arrow from "../../public/images/icon-arrow.svg";
@@ -18,7 +19,7 @@ export default function Search() {
       <h1 className="text-white py-3 fs-4">IP Adress Tracker</h1>
       <div className="row search-box m-auto">
         <input
-          className="col-10 py-2 rounded-start border-0"
+          className="col-10 py-3 py-sm-2  rounded-start border-0"
           placeholder="Search for any IP address or domain"
           type="text"
           value={search}

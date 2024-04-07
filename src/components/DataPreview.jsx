@@ -1,5 +1,4 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React from "react";import { useSelector } from "react-redux";
 export default function DataPreview() {
   const { address, status, error } = useSelector((store) => store.ip);
 
@@ -22,13 +21,13 @@ export default function DataPreview() {
           </p>
         ) : (
           <div className="row">
-            <div className="col-12 col-sm-6 col-md-3">
+            <div className="col-12 col-sm-6 col-md-3 text-sm-center">
               <div className="custom-border">
                 <p className="text-secondary mb-1 title">Ip address</p>
                 <p className="mb-1 font-weight-bold pe-2">{address?.ip}</p>
               </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-3">
+            <div className="col-12 col-sm-6 col-md-3 text-sm-center">
               <div className="custom-border">
                 <p className="text-secondary mb-1 title">Loaction</p>
                 <p className="mb-1 font-weight-bold pe-2">
@@ -36,7 +35,7 @@ export default function DataPreview() {
                 </p>
               </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-3">
+            <div className="col-12 col-sm-6 col-md-3 text-sm-center">
               <div className="custom-border">
                 <p className="text-secondary mb-1 title">Time zone</p>
                 <p className="mb-1 font-weight-bold pe-2">
@@ -44,7 +43,7 @@ export default function DataPreview() {
                 </p>
               </div>
             </div>
-            <div className="col-12 col-sm-6 col-md-3">
+            <div className="col-12 col-sm-6 col-md-3 text-sm-center">
               <p className="text-secondary mb-1 title">ISP</p>
               <p className="mb-1 font-weight-bold pe-2">{address?.isp}</p>
             </div>
